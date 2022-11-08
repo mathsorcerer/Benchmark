@@ -13,9 +13,9 @@ sudo apt-get install -y build-essential
 sudo apt-get install -y python3
 
 # Install EMP-Toolkit
-wget https://raw.githubusercontent.com/emp-toolkit/emp-readme/master/scripts/install.py
+# wget https://raw.githubusercontent.com/emp-toolkit/emp-readme/master/scripts/install.py
 
-python3 install.py --install --tool --ot --agmpc
+# python3 install.py --install --tool --ot --agmpc
 
 # Install MP-SPDZ
 sudo apt-get install -y automake build-essential cmake git libboost-dev libboost-thread-dev libntl-dev libsodium-dev libssl-dev libtool m4 python3 texinfo yasm

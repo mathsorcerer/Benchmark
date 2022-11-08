@@ -12,6 +12,9 @@ sudo apt-get install -y build-essential
 # Install python3 
 sudo apt-get install -y python3
 
+# Install ZeroMQ
+sudo apt-get install -y libzmq3-dev
+
 # Install EMP-Toolkit
 # wget https://raw.githubusercontent.com/emp-toolkit/emp-readme/master/scripts/install.py
 
@@ -39,9 +42,6 @@ make Fake-Offline.x
 
 # Jump out MP-SPDZ
 cd ../
-
-# Install ZeroMQ
-sudo apt-get install -y libzmq3-dev
 
 # Build Global Garbled Circuit source code
 cd Benchmark/Garbled_Circuit/Server

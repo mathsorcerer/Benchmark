@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 num_parties=3
 
 num_and_gates=0

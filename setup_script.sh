@@ -37,14 +37,14 @@ make -j 8 tldr
 
 # Build Fake-Offline protocol
 rm -f ./Utils/Fake-Offline.cpp
-cp ../Benchmark/Speed_Z/Fake-Offline.cpp ./Utils/
+cp ../Speed_Z/Fake-Offline.cpp ./Utils/
 make Fake-Offline.x 
 
 # Jump out MP-SPDZ
 cd ../
 
 # Build Global Garbled Circuit source code
-cd Benchmark/Garbled_Circuit/Server
+cd ./Garbled_Circuit/Server
 make
 
 # Jump out 

@@ -27,8 +27,9 @@ wget https://github.com/data61/MP-SPDZ/archive/refs/tags/v0.3.3.tar.gz
 
 tar -zxvf v0.3.3.tar.gz
 
-# Replace Makefile MP-SPDZ
+# Replace Makefile and CONFIG MP-SPDZ
 cp ./Makefile MP-SPDZ-0.3.3/
+cp ./CONFIG MP-SPDZ-0.3.3/
 
 # Go to folder and build
 cd MP-SPDZ-0.3.3

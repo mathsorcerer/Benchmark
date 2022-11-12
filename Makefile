@@ -334,9 +334,9 @@ mac-setup: mac-machine-setup
 
 ifeq ($(ARM), 1)
 mac-machine-setup:
-	-echo ARCH = >> CONFIG.mine
+	-echo ARCH = -march=armv8-a+simd+crypto+crc >> CONFIG.mine
 linux-machine-setup:
-	-echo ARCH = -march=armv8.2-a+crypto >> CONFIG.mine
+	-echo ARCH = -march=armv8-a+simd+crypto+crc >> CONFIG.mine
 else
 mac-machine-setup:
 linux-machine-setup:
